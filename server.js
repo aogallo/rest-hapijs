@@ -152,6 +152,13 @@ const init = async () => {
           id_gasto: 6,
           id_sexo: 2,
         },
+        {
+          id: 8,
+          nombre: 'Federica',
+          correo: 'fer@gmail.com',
+          id_gasto: 6,
+          id_sexo: 2,
+        },
       ];
 
       return {
