@@ -10,6 +10,14 @@ const init = async () => {
 		method: 'GET',
 		path: '/',
 		handler: (request, h) => {
+			return 'Hello from hapijs API'
+		}
+	});
+
+	server.route({
+		method: 'GET',
+		path: '/gasto',
+		handler: (request, h) => {
 			const gastos = [
 				{
 					nombre: 'Viaticos'
@@ -48,7 +56,7 @@ const init = async () => {
 
 	server.route({
 		method: 'POST',
-		path: '/',
+		path: '/gasto',
 		handler: (request, h) => {
 			return {
 				success: true,
