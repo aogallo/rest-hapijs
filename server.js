@@ -86,36 +86,43 @@ const init = async () => {
           id: 1,
           nombre: 'Juan Pablo',
           correo: 'juan@gmail.com',
+          id_gasto: 1,
         },
         {
           id: 2,
           nombre: 'Pablo',
           correo: 'pablo@gmail.com',
+          id_gasto: 1,
         },
         {
           id: 3,
           nombre: 'Julio',
           correo: 'julio@gmail.com',
+          id_gasto: 1,
         },
         {
           id: 4,
           nombre: 'Charli',
           correo: 'charli@gmail.com',
+          id_gasto: 3,
         },
         {
           id: 5,
           nombre: 'Carlos',
           correo: 'carlos@gmail.com',
+          id_gasto: 3,
         },
         {
           id: 6,
           nombre: 'Mario',
           correo: 'mario@gmail.com',
+          id_gasto: 7,
         },
         {
           id: 7,
           nombre: 'Maria',
           correo: 'maria@gmail.com',
+          id_gasto: 6,
         },
       ];
 
