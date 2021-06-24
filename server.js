@@ -64,11 +64,12 @@ const init = async () => {
     method: 'POST',
     path: '/gasto',
     handler: (request, h) => {
+      console.log(request.payload);
       return {
         success: true,
         data: [
           {
-            ...h.payload,
+            ...request.payload,
           },
         ],
         error: '',
